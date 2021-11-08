@@ -95,16 +95,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Images\flower.JPG" />
+    <Content Include="Images\fungi.JPG" />
+    <Content Include="Images\orchard.JPG" />
+    <Content Include="Images\path.JPG" />
+    <Content Include="Images\pinkflower.JPG" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\PhotoController.cs" />
+    <Compile Include="Controllers\ValueReporter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202111082226068_initial.cs" />
-    <Compile Include="Migrations\202111082226068_initial.Designer.cs">
-      <DependentUpon>202111082226068_initial.cs</DependentUpon>
+    <Compile Include="Migrations\202111082311077_initial.cs" />
+    <Compile Include="Migrations\202111082311077_initial.Designer.cs">
+      <DependentUpon>202111082311077_initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Comment.cs" />
@@ -125,6 +132,8 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Content Include="Views\Photo\Display.cshtml" />
+    <Content Include="Views\Photo\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -134,11 +143,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202111082226068_initial.resx">
-      <DependentUpon>202111082226068_initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202111082311077_initial.resx">
+      <DependentUpon>202111082311077_initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
