@@ -99,6 +99,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+<<<<<<< Updated upstream
+=======
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PhotoController.cs" />
+    <Compile Include="Controllers\ValueReporter.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -125,6 +131,14 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+<<<<<<< Updated upstream
+=======
+    <Content Include="Views\Photo\Display.cshtml" />
+    <Content Include="Views\Photo\Index.cshtml" />
+    <Content Include="Views\Photo\Create.cshtml" />
+    <Content Include="Views\Shared\_PhotoGallery.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+>>>>>>> Stashed changes
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
